@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="es-Es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 1</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/jpg" href="img/favicon.svg">
+</head>
+
+<body>
+    <header>
+        <div class="mobile-container">
+            <div class="topnav">
+                <div id="myLinks">
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#personajes">Personajes</a>
+                    <a href="#video-resumen">Resumen</a>
+                    <a href="#secuelas">Secuelas</a>
+                    <a href="#encuesta">Encuesta</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa-solid fa-bars fa-2xl "></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-images">
+                <img src="img/banner.jpg" alt="Banner 1">
+                <img src="img/banner2.jpg" alt="Banner 2">
+                <img src="img/banner3.jpg" alt="Banner 3">
+            </div>
+        </div>
+
+        <a href="index.html">
+            <img class="logo" src="img/logo.svg" alt="Logo">
+        </a>
+
+
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#nosotros" class="icon-inicio"><i class="fas fa-home"></i><span>Nosotros</span></a></li>
+                <li><a href="#personajes" class="icon-personajes"><i class="fas fa-user"></i><span>Personajes</span></a>
+                </li>
+                <li><a href="#video-resumen" class="icon-resumen"><i
+                            class="fa-brands fa-youtube"></i><span>Resumen</span></a>
+                </li>
+                <li><a href="#secuelas" class="icon-tramas"><i class="fa-solid fa-film"></i><span>Secuelas</span></a>
+                </li>
+                <li><a href="#encuesta" class="icon-encuesta"><i class="fas fa-envelope"></i><span>Encuesta</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="tituloPrincipal center-text">The Walking Dead: Una Comunidad de Fans Sobrevivientes</h1>
+        <section id="nosotros">
+            <h2>¿Qué te vas a encontrar?</h2>
+            <div class="nosotros-img-entrada-container">
+                <img src="/img/nosotros-imgEntrada.webp" alt="The Walking Dead Banner">
+            </div>
+
+            <div class="nosotros-intro-text">
+                <p class="center-text">
+                    Bienvenidos a nuestra página no oficial dedicada al universo de <strong>The Walking Dead</strong>.
+                    Somos
+                    una comunidad de fans apasionados que busca mantener viva la llama de esta increíble historia de
+                    supervivencia. Aquí encontrarás un espacio diseñado especialmente para compartir nuestra pasión por
+                    la
+                    serie, sus personajes y sus tramas inolvidables.
+                </p>
+
+
+                <p class="center-text">
+                    En nuestra página podrás explorar diversas secciones, comenzando con un <strong>carrusel de
+                        personajes</strong> donde revivirás a los protagonistas que marcaron cada temporada. Además,
+                    disfruta de <strong>videos con los momentos más impactantes</strong> y resúmenes de toda la
+                    serie.
+                    Estamos preparando más contenido emocionante, y también podrás participar en nuestra
+                    <strong>encuesta</strong> para compartir tus opiniones sobre el mundo apocalíptico de TWD.
+                </p>
+                <!-- Galería de personajes (resumen) -->
+                <div class="nosotros-personajes-galeria center">
+                    <img src="img/nosotros-andrewLincoln.jpg" alt="Rick Grimes" class="nosotros-personaje-img">
+                    <img src="img/nosotros-normanReedus.jpg" alt="Daryl Dixon" class="nosotros-personaje-img">
+                </div>
+
+            </div>
+
+
+            <p class="center-text">
+                Este es tu lugar para redescubrir The Walking Dead desde una perspectiva única y de la mano de otros
+                sobrevivientes como tú. <strong>¡Explora, descubre y unite a nuestra comunidad!</strong>
+            </p>
+
+            <!-- Botón para explorar más secciones -->
+            <a href="#encuesta" class="btn-cta">Descubre más</a>
+        </section>
+
+        <section id="personajes">
+            <h2 class="tituloSecundario center-text">Personajes Principales</h2>
+            <div class="personajes-carousel-container">
+                <button class="personajes-carousel-btn prev-btn">&lt;</button>
+                <ul class="personajes-carousel">
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-rickGrimes.jfif" alt="Rick Grimes">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Rick Grimes: <strong>El líder del grupo</strong> que lucha por mantener la moral
+                                        en un mundo sin
+                                        reglas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-darylDixon.jpg" alt="Daryl Dixon">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Daryl Dixon: <strong>Cazador y aliado clave del grupo</strong>, siempre leal.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-carol.jpg" alt="Carol Peletier">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Carol Peletier: De una mujer frágil a una <strong>feroz sobreviviente</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-michonne.jpg" alt="Michonne">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Michonne: <strong>Guerrera con katana</strong>, una fuerza imparable en el grupo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-morganJones.jpg" alt="Morgan">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Morgan Jones: <strong>Un hombre atormentado</strong> que pasa de ser pacifista a
+                                        guerrero, mientras lucha por encontrar su paz interior.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-aaron.jpg" alt="Aaron">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Aaron: Un <strong>reclutador amable y diplomático</strong> que introduce al grupo
+                                        a la comunidad de Alexandria.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-eugene.jpg" alt="Eugene">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Eugene Porter: Un <strong>científico con un oscuro secreto</strong>, cuyo
+                                        intelecto es una herramienta clave para la supervivencia.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-gabriel.jpg" alt="Gabriel">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Padre Gabriel: Un <strong>sacerdote que encuentra redención</strong> y propósito
+                                        al convertirse en un valioso miembro del grupo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-sasha.jpg" alt="Sasha">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Sasha: Una <strong>francotiradora experta</strong> que lucha constantemente
+                                        contra su dolor y traumas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-tara.jpg" alt="Tara">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Tara: Sobreviviente <strong>leal y compasiva</strong>, que se une al grupo tras
+                                        el ataque del Gobernador</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-maggie.jpg" alt="Maggie">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Maggie: La hija de un granjero que se convierte en una <strong>líder
+                                            intrépida</strong> tras la muerte de su familia</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-glenn.jpg" alt="Glenn">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Glenn: Un ex-repartidor convertido en el <strong>héroe del grupo</strong>,
+                                        conocido por su valentía y bondad.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-carl.jpg" alt="Carl">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Carl Grimes: El hijo de Rick, un <strong>joven que crece rápido en un mundo
+                                            violento</strong> y lleno de pérdidas.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-abraham.jpg" alt="Abraham">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Abraham: Un <strong>ex-sargento militar duro y resistente</strong>, siempre
+                                        dispuesto a sacrificarse por el bien del grupo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="personajes-carousel-item">
+                        <div class="personajes-tarjeta-invertida">
+                            <div class="personajes-tarjeta-invertida-inner">
+                                <div class="personajes-tarjeta-invertida-front">
+                                    <img src="img/personajes-rosita.jpg" alt="Rosita">
+                                </div>
+                                <div class="personajes-tarjeta-invertida-back">
+                                    <p>Rosita Espinosa: <strong>Una soldado fuerte y decidida</strong>, con habilidades
+                                        de supervivencia excepcionales.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="personajes-carousel-btn next-btn">&gt;</button>
+            </div>
+        </section>
+
+        <section id="video-resumen">
+            <h2 class="tituloSecundario center-text">Ponete al día!!</h2>
+
+            <div class="resumen-contenedor-videoYTexto">
+                <div class="center">
+                    <iframe src="https://www.youtube.com/embed/BXjbQTEsxHU?si=-EO1-XSylJuNa7TR"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+                <p>No te olvides de ponerte al día ya que es muy importante. Por eso te dejamos este video a modo de
+                    recordatorio, de <strong>todas las muertes</strong> que podemos ver en la serie de the walking dead.
+                </p>
+            </div>
+
+            <div class="resumen-contenedor-videoYTexto2 reverse">
+
+                <p>Ademas, te dejamos a modo de recordatorio, un <strong>resumen de todas las temporadas</strong> de the
+                    walking dead. Este video nada más miralo si dejaste la serie por un tiempo, queres volver a
+                    retomarla, y para eso tenes que acordarte lo que había pasado.</p>
+                <div class="center">
+                    <iframe src="https://www.youtube.com/embed/rjyBpduUCzE?si=vwbLZeJ2kEoJ4tUB"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="secuelas">
+            <h2 class="center-text">Precuelas y Secuelas</h2>
+
+            <p class="secuelas-intro">A continuación vas a ver las <strong>portadas de las series secuelas o
+                    precuelas</strong> de la
+                original que es the
+                walking dead. Todas estas son del mismo universon de la serie, solo que pasan en distintos lugares, y
+                algunas con distintos personajes. Lee la descripcion de cada una y adentrate en la historia espectacular
+                de cada una de estas series. Quien sabe? en un futuro capaz que nos encuentran en una página de fans de
+                una de estas series...
+            </p>
+
+            <div class="parent">
+                <div class="div1 center">
+                    <img src="img/portada-fearTWD.jpg" alt="Fear the walking dead">
+                </div>
+                <div class="div2 center">
+                    <p>Ambientada antes de los eventos de The Walking Dead, esta serie <strong>sigue a un grupo de
+                            personas que
+                            intentan sobrevivir al brote inicial del apocalipsis zombi</strong>. Desde los primeros días
+                        de confusión
+                        y caos en Los Ángeles hasta las luchas por adaptarse a un mundo en ruinas, la serie explora cómo
+                        el apocalipsis cambia a las personas y cómo la humanidad, aunque en decadencia, aún encuentra
+                        razones para luchar. 'Fear the Walking Dead' revela una visión más amplia del colapso global y
+                        cómo diferentes comunidades intentan enfrentarse a los horrores de los caminantes.</p>
+                </div>
+                <div class="div3 center">
+                    <p>Situada una década después del inicio del apocalipsis, esta serie <strong>se centra en la primera
+                            generación que crece completamente en el mundo dominado por los muertos vivientes</strong>.
+                        La historia
+                        sigue a un grupo de adolescentes que se embarcan en un peligroso viaje fuera de la seguridad de
+                        su comunidad, en busca de respuestas sobre su pasado y el futuro que les espera. World Beyond
+                        ahonda en las estructuras de poder emergentes, las comunidades que han logrado sobrevivir y cómo
+                        los jóvenes deben enfrentar tanto los muertos como las intrigas de los vivos para descubrir su
+                        verdadero propósito en este nuevo orden mundial.</p>
+                </div>
+                <div class="div4 center">
+                    <img src="img/portada-worldBeyond.jpg" alt="World Beyond">
+                </div>
+                <div class="div5 center">
+                    <img src="img/portada-talesOfTwd.jpg" alt="Tales of the walking dead">
+                </div>
+                <div class="div6 center">
+                    <p>Esta serie antológica ofrece <strong>historias independientes dentro del universo de The Walking
+                            Dead,
+                            cada
+                            una centrada en personajes nuevos o existentes</strong>. Desde diferentes rincones del
+                        apocalipsis, estas
+                        historias muestran la diversidad de experiencias que las personas atraviesan mientras luchan por
+                        sobrevivir. Algunas historias exploran los inicios del brote, otras el colapso de la
+                        civilización o
+                        los desafíos de reconstruir la sociedad. 'Tales of the Walking Dead' ofrece una perspectiva
+                        fresca
+                        sobre las múltiples formas en que el apocalipsis zombi afecta a diferentes individuos y
+                        comunidades,
+                        y cómo algunos encuentran la esperanza mientras otros sucumben al miedo y la desesperación.
+                    </p>
+                </div>
+                <div class="div7 center">
+                    <p>Ubicada en una Nueva York postapocalíptica, <strong>la serie sigue a Maggie y Negan mientras se
+                            aventuran
+                            en una peligrosa misión en la ciudad, ahora invadida por los caminantes</strong>. Esta
+                        extraña pareja
+                        debe poner sus diferencias a un lado y trabajar juntos para sobrevivir en un entorno hostil,
+                        donde nuevas amenazas tanto humanas como no humanas acechan en cada esquina. 'Dead City' ofrece
+                        una visión más oscura y caótica del mundo devastado por los caminantes, mientras Maggie busca
+                        justicia y respuestas, y Negan lucha contra su propio pasado.</p>
+                </div>
+                <div class="div8 center">
+                    <img src="img/portada-deadCity.jpg" alt="Dead city">
+                </div>
+                <div class="div9 center">
+                    <img src="img/portada-daryDixon.jpg" alt="Daryl Dixon">
+                </div>
+                <div class="div10 center">
+                    <p>En esta serie, Daryl Dixon, <strong>uno de los personajes más queridos de la serie original,
+                            llega a
+                            Francia sin saber cómo ni por qué</strong>. Atrapado en un país extranjero y devastado por
+                        los
+                        caminantes, Daryl debe navegar entre facciones enfrentadas y culturas diferentes, mientras trata
+                        de regresar a casa. La serie explora tanto los desafíos emocionales de la soledad como las
+                        nuevas y peligrosas amenazas que surgen en Europa, mientras Daryl forma nuevas alianzas y
+                        descubre secretos que podrían cambiar el curso del apocalipsis.</p>
+                </div>
+                <div class="div11 center">
+                    <p>Rick Grimes y Michonne, <strong>dos de los personajes más icónicos de The Walking Dead, se
+                            reencuentran
+                            en esta nueva serie para enfrentarse a un viaje lleno de peligros</strong>. Separados por
+                        años, Rick ha
+                        estado prisionero de una fuerza militar desconocida, mientras Michonne ha pasado años buscando
+                        rastros de su esposo desaparecido. La serie sigue su lucha para reunirse, mientras descubren
+                        nuevas amenazas y aliados inesperados en un mundo aún más roto que antes. 'The Ones Who Live'
+                        ofrece una mezcla de emociones intensas, acción y revelaciones impactantes, profundizando en el
+                        vínculo entre Rick y Michonne y su lucha por reconstruir una vida en medio del caos.</p>
+                </div>
+                <div class="div12 center">
+                    <img src="img/portada-theOnesWhoLives.webp" alt="The ones who live">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="encuesta">
+            <h2 class="center-text">Participa en nuestra Encuesta</h2>
+            <p class="center-text">Queremos saber <strong>tu opinión sobre The Walking Dead</strong> y sus series
+                relacionadas. Completa el formulario y comparte tus ideas.</p>
+
+            <form action="#" method="get" class="form-encuesta center">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre...">
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required placeholder="Tu correo...">
+
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="Tu teléfono...">
+
+                <label for="serie-favorita">Serie favorita:</label>
+                <select id="serie-favorita" name="serie-favorita" required>
+                    <option value="">Selecciona una serie...</option>
+                    <option value="twd">The Walking Dead</option>
+                    <option value="ftwd">Fear the Walking Dead</option>
+                    <option value="world-beyond">The Walking Dead: World Beyond</option>
+                    <option value="dead-city">The Walking Dead: Dead City</option>
+                    <option value="dixon">The Walking Dead: Daryl Dixon</option>
+                    <option value="ones-who-live">The Walking Dead: The Ones Who Live</option>
+                </select>
+
+                <label for="comentarios">Comentarios:</label>
+                <textarea id="comentarios" name="comentarios" rows="5"
+                    placeholder="Comparte tus pensamientos..."></textarea>
+
+                <button type="submit" class="submit-button">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <div class="contenedorContacto">
+            <div class="titulosFooter">
+                <h4>DATOS PERSONALES:</h4>
+            </div>
+
+            <div class="listaDatosPersonales">
+                <ul>
+                    <li>
+                        <p class="elementoContacto"><strong>Autor:</strong> Luciano Neiman</p>
+                    </li>
+                    <li>
+                        <p class="elementoContacto"><strong>Mail:</strong> luciano.neiman@davinci.edu.ar</p>
+                    </li>
+                    <li>
+                        <p class="elementoContacto"> <strong>Fecha de nacimiento:</strong> 19/04/2004</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="contenedorPerfil">
+            <img class="fotoPerfil" src="IMG/perfil.jpg" alt="perfil" height="250">
+        </div>
+
+        <div class="rrss">
+            <div class="titulosFooter">
+                <h4>NUESTRAS REDES:</h4>
+            </div>
+
+            <div>
+                <div class="contenedorRedes">
+                    <img class="logo-ig" src="IMG/ig.svg" alt="instagram">
+                    <a class="navFooterIg" href="https://www.instagram.com/luchoneiman/">@luchoneiman</a>
+                </div>
+                <div class="contenedorRedes">
+                    <img class="logo-wpp" src="IMG/wpp.svg" alt="wpp">
+                    <p class="navFooterWpp">+54 9 1160331228</p>
+                </div>
+                <div class="contenedorRedes">
+                    <img class="logo-gmail" src="IMG/gmail.svg" alt="gmail">
+                    <p class="navFooterEmail">luciano.neiman@davinci.edu.ar</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://kit.fontawesome.com/dba7accec9.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
